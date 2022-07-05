@@ -157,7 +157,6 @@ public class OrbitMode : MonoBehaviour
             }
             public void StartLerpToSpacifcView(int dir)
             {
-                Debug.Log(dir);
                 ViewDirection direction;
                 switch (dir)
                 {
